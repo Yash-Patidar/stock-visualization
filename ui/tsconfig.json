@@ -1,0 +1,27 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ],
+    "include": [
+      "src/**/*.ts",
+      "src/**/*.d.ts",
+      "src/**/*.tsx",
+      "src/**/*.vue"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  ,
+    "compilerOptions": {
+      "allowJs": true,
+      // ... other options
+    },
+    // ... rest of the config
+  
+}
