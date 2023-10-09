@@ -210,7 +210,7 @@ fastify.get("/api/search", (request, reply) => {
 // Run the server
 const start = async () => {
   try {
-    await fastify.listen(3000);
+    await fastify.listen(80);
     fastify.log.info(
       `Server running on http://localhost:${fastify.server.address().port}`
     );
